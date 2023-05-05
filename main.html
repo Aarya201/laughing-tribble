@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="main.js"></script>
+        <title>Calculate</title>
+    </head>
+    <body style="background-color:aqua">
+        <a href="index.html"><button id="main">Back</button></a>
+        <h1>Add Assets And Liabilities</h1>
+        <div>
+            <div id="onef">
+                <form style="text-align: center; font-size: large; font-weight: bolder;" id="of">
+                    <div>
+                        <label>Asset Name</label><br>
+                        <input type="text" value="Name" id="an"><br> 
+                    </div>
+                    <div style="margin: 10px;">
+                        <label>Amount </label><br>
+                        <input type="number" value="123"><br>
+                    </div>
+                    <button id="mai" style="margin-top: 5px;" onclick="asset()">Add</button>
+                </form>
+            </div>
+            <div id="twof">
+                    <form style="text-align: center; font-size: large; font-weight: bolder;" id="off">
+                        <div>
+                            <label>Liability Name</label><br>
+                            <input type="text" value="Name"><br> 
+                        </div>
+                        <div style="margin: 10px;">
+                            <label>Amount </label><br>
+                            <input type="number" value="123"><br>
+                        </div>
+                        <button id="ma" style="margin-top: 5px;">Add</button>
+                    </form> 
+            </div>
+            <div style="position: relative; top:250px; left: 0; text-align: center;">
+                <button id="m">Done!</button>  
+            </div>
+            <div style="text-align: center;">
+                <div style="position: relative; top:250px; left: 0; text-align: left;">
+                    <h3 id="assen"></h3>
+                    <h3 id="assea"style="margin-top: 10px;"></h3>
+                </div>
+                <div style="position: relative; top: 170px; text-align: right;">
+                    <h3></h3>
+                    <h3 style="margin-top: 10px;"></h3>
+                </div>
+            </div>
+        </div>     
+        
+</body>
+</html>
